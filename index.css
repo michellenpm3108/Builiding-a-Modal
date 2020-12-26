@@ -64,3 +64,31 @@ h2, p {
     cursor: pointer;
     background-color: rgba(255, 1, 255, 0.605);
 }
+
+.meaning {
+    width: 400px;
+    padding: 2em;
+    background-color: rgb(57, 57, 57);
+    text-align: center;
+    margin: 1em auto;
+}
+.word-meaning {
+    line-height: 1.5em;
+    width: 70%;
+    margin: 0 auto;
+    color:rgb(255, 1, 255);
+}
+.close-btn {
+    background-color:  rgb(57, 57, 57);
+    border: none;
+    color: white;
+    font-size: .5rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-top: 3em;
+}
+.close-btn:hover,
+.close-btn:focus {
+    color: rgb(255, 1, 255);
+    cursor: pointer;
+}
