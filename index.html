@@ -8,25 +8,35 @@
 </head>
 
 <body>
-    <h1> New Words</h1>
+    <h1> <span>COVID-19</span> </br> Vocabulary </h1>
     
     <div class="voc-list">
         <div class="new-word">
-            <h2>Black Sky Event</h2>
-            <img src="images/dark-sky-event.jpg" alt="dark sky">
-            <button id="open-modal">Meaning</button>
+            <h2 class="word">space marshal </h2>
+            <p class="word-pronounciation">/ˈspeɪs.mɑːr.ʃᵊl/</p>
+            <button class="open-modal" id="open-modal-1">Meaning</button>
+        </div>
+
+        <div class="new-word">
+            <h2 class="word">anti-masker</h2>
+            <p class="word-pronounciation">/ˌæn.t̬i.ˈmæskɚ/</p>
+            <button class="open-modal" id="open-modal-2">Meaning</button>
         </div>
     </div>
 
     <div id="overlay">
-        <div id="modal">
-            <p class="word-pronounciation"></p>
-            <p class="word-meaning">a serious event, such as a cyberattack or a natural disaster, that causes a widespread power cut</p>
+        <div id="modal-1">
+            <p class="word-meaning">someone whose job is to make sure people are obeying the rules of physical distancing in places such as shops, libraries etc.</p>
+            <button id="close-modal">Close</button>
+        </div>
+
+        <div id="modal-2">
+            <p class="word-meaning">someone who refuses to obey the rule that a mask must be worn in public places to help protect people from covid-19</p>
             <button id="close-modal">Close</button>
         </div>
     </div>
 
-    
+
     <script src="index.js"></script>    
 </body>
 </html>
