@@ -134,6 +134,6 @@ document.getElementById('close-modal-19').addEventListener('click', function(){
 document.getElementById('open-modal-20').addEventListener('click', function(){
     document.getElementById('overlay-20').style.display='block'
 })
-document.getElementById('close-modal-10').addEventListener('click', function(){
-    document.getElementById('overlay-10').style.display='none'
+document.getElementById('close-modal-20').addEventListener('click', function(){
+    document.getElementById('overlay-20').style.display='none'
 })
