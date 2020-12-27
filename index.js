@@ -1,13 +1,13 @@
-const overlay = document.getElementById('overlay')
-const openModal = document.getElementById('open-modal')
-const modalOne= document.getElementById('modal-one')
-const closeModal = document.getElementById('close-modal')
-
-
-overlay.style.display='none'
-openModal.addEventListener('click', function(){
-    overlay.style.display='block'
+document.getElementById('open-modal-1').addEventListener('click', function(){
+    document.getElementById('overlay-1').style.display='block'
 })
-closeModal.addEventListener('click', function(){
-    overlay.style.display='none'
+document.getElementById('close-modal-1').addEventListener('click', function(){
+    document.getElementById('overlay-1').style.display='none'
+})
+
+document.getElementById('open-modal-2').addEventListener('click', function(){
+    document.getElementById('overlay-2').style.display='block'
+})
+document.getElementById('close-modal-2').addEventListener('click', function(){
+    document.getElementById('overlay-2').style.display='none'
 })
