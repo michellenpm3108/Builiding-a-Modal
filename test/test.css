@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgba(0, 0, 0, 0.823);
+    color: white;
+}
+h1{
+    text-align: center;
+    color: rgb(223, 223, 223);
+    font-size: 1.5rem;
+    margin: 1em;
+}
+span {
+    position: relative;
+    font-size: 2rem;
+}
+span::before {
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: .3em;
+    background-color: rgba(255, 1, 255, 0.449);
+    bottom: .2em;
+    z-index: -1;
+}
+h2, p {
+    margin: 0;
+}
+
+/*--------------------------
+----------------------------
+------ LIST OF WORDS--------
+-----------------------------
+----------------------------- */
+.voc-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.2em;
+    padding: 1em;
+}
+.new-word {
+    background-color: rgb(57, 57, 57);
+    width: 200px;
+    padding: 1em;
+}
+.word{
+    color: rgb(255, 1, 255);
+}
+.word-pronounciation {
+    font-size: .75rem;
+    font-style: italic;
+}
+.open-modal {
+    margin-top: 3em;
+    font-family: 'Nunito' sans-serif;
+    text-transform: uppercase;
+    font-size: .6rem;
+    font-weight: bold;
+    letter-spacing: .1em;
+    padding: .5em 1em;
+    border: none;
+    background-color: rgba(255, 1, 255, 0.267);
+    border-radius: 10px;
+    color: white;
+}
+.open-modal:hover,
+.open-modal:focus {
+    cursor: pointer;
+    background-color: rgba(255, 1, 255, 0.605);
+    outline: none;
+}
+
+/*--------------------------
+----------------------------
+-------MODAL & OVERLAY------
+-----------------------------
+----------------------------- */
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.823);
+}
+.meaning-div {
+    max-width: 400px;
+    background-color: rgb(57, 57, 57);
+    margin-top: 1em;
+    display: none;
+}
+.word-meaning {
+    line-height: 1.2em;
+    font-size: .75rem;
+    color:rgb(255, 1, 255);
+}
+.close-btn {
+    background-color:  rgb(57, 57, 57);
+    border: none;
+    color: white;
+    font-size: .5rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-top: 1em;
+    padding: 0;
+}
+.close-btn:hover,
+.close-btn:focus {
+    color: rgb(255, 1, 255);
+    cursor: pointer;
+}
