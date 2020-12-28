@@ -47,7 +47,38 @@ h2, p {
 }
 .word{
     color: rgb(255, 1, 255);
+    position: relative;
+    z-index: 0;
 }
+.word:before {
+    position: absolute;
+    font-size: 7rem;
+    left: 40%;
+    top: -50%;
+    z-index: -1;
+    color:rgba(158, 153, 158, 0.062);
+}
+.word-1:before{content:'01';}
+.word-2:before{content:'02';}
+.word-3:before{content:'03';}
+.word-4:before{content:'04';}
+.word-5:before{content:'05';}
+.word-6:before{content:'06';}
+.word-7:before{content:'07';}
+.word-8:before{content:'08';}
+.word-9:before{content:'09';}
+.word-10:before{content:'10';}
+.word-11:before{content:'11';}
+.word-12:before{content:'12';}
+.word-13:before{content:'13';}
+.word-14:before{content:'14';}
+.word-15:before{content:'15';}
+.word-16:before{content:'16';}
+.word-17:before{content:'17';}
+.word-18:before{content:'18';}
+.word-19:before{content:'19';}
+
+
 .word-pronounciation {
     font-size: .75rem;
     font-style: italic;
@@ -61,15 +92,19 @@ h2, p {
     letter-spacing: .1em;
     padding: .5em 1em;
     border: none;
-    background-color: rgba(255, 1, 255, 0.267);
+    background-color: rgba(255, 1, 255, 0.13);
     border-radius: 10px;
     color: white;
 }
-.open-modal:hover,
-.open-modal:focus {
+.open-modal:hover{
     cursor: pointer;
     background-color: rgba(255, 1, 255, 0.605);
+
+}
+.open-modal:focus {
+    background-color: rgba(255, 1, 255, 0.4);
     outline: none;
+
 }
 
 /*--------------------------
