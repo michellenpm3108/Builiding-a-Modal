@@ -97,13 +97,15 @@ h2, p {
 .word-meaning {
     line-height: 1.2em;
     font-size: .75rem;
-    color:rgb(255, 1, 255);
+    font-weight: bold;
+    color:white;
+    
 }
 .close-btn {
     background-color:  rgb(57, 57, 57);
     border: none;
-    color: white;
-    font-size: .5rem;
+    color: rgba(255, 255, 255, 0.374);
+    font-size: .45rem;
     text-transform: uppercase;
     letter-spacing: .2em;
     margin-top: 1em;
