@@ -98,7 +98,7 @@ h2, p {
 .new-word {
     border-radius: 15px;
     width: 200px;
-    padding: 2em;
+    padding: 1.3em;
     background-color: rgba(240, 248, 255, 0.552);
 }
 .word{
@@ -108,11 +108,11 @@ h2, p {
 }
 .word:before {
     position: absolute;
-    font-size: 7rem;
-    left: 40%;
-    top: -50%;
+    font-size: 9rem;
+    left: 30%;
+    top: -150%;
     z-index: -1;
-    color: rgba(255, 1, 107, 0.238);
+    color:  rgba(126, 111, 111, 0.089);
 }
 .word-1:before{content:'01';}
 .word-2:before{content:'02';}
