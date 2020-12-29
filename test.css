@@ -180,8 +180,8 @@ h2, p {
 }
 .close-btn {
     border: none;
-    color: rgba(255, 1, 107, 0.429);
-    background-color:rgb(224, 236, 143);
+    color: rgba(138, 131, 134, 0.429);
+    background-color:rgba(255, 255, 255, 0);
     font-size: .45rem;
     font-weight: bold;
     text-transform: uppercase;
