@@ -14,7 +14,7 @@ body {
     position: relative;
 } */
 header {
-    background-image: url("../images/2.jpg");
+    background-image: url("images/2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
