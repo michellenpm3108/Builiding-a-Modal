@@ -14,3 +14,8 @@ for (let i=0 ; i<closeModal.length ; i++) {
     })
    
 }
+
+const searchInput = document.getElementById('searchInput')
+searchInput.addEventListener('keyup', function(event){
+    
+})
