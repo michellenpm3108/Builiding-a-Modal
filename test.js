@@ -15,19 +15,22 @@ for (let i=0 ; i<closeModal.length ; i++) {
    
 }
 
-const vocList = document.querySelector('.voc-list')
 const searchInput = document.getElementById('searchInput')
 searchInput.addEventListener('keyup', function(event){
     let userSearch = event.target.value.toLowerCase();
+
     const allWordsDomCollection = document.querySelectorAll('.word')
     
-    const wordFrame = document.querySelectorAll('.new-word')
+    
     for (let counter=0 ; counter<allWordsDomCollection.length ; counter++) {
         let currentWord = allWordsDomCollection[counter].textContent.toLowerCase()
-        if (currentWord.includes(userSearch)) {
-         allWordsDomCollection[counter].style.display = 'block'
-        } else {
-            vocList.style.display= 'none'
+
+        let wordFrame = document.querySelectorAll('.new-word')
+    
+            if (currentWord.includes(userSearch)){
+                wordFrame[counter].style.display='block'
+            } else {
+                wordFrame[counter].style.display='none'
+            }
         }
-    }
 })
