@@ -19,6 +19,11 @@ body {
     border: none;
     width: 70%;
     height: 2em;
+    text-align:center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    color: rgba(255, 1, 107, 0.763);
+    font-weight: bold;
 }
 @media (min-width: 700px) {
     .search input {
