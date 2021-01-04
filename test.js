@@ -16,21 +16,17 @@ for (let i=0 ; i<closeModal.length ; i++) {
 }
 
 const searchInput = document.getElementById('searchInput')
+const allWords = document.querySelectorAll('.word')
+const frameWord = document.querySelectorAll('.new-word')
+
 searchInput.addEventListener('keyup', function(event){
-    let userSearch = event.target.value.toLowerCase();
-
-    const allWordsDomCollection = document.querySelectorAll('.word')
-    
-    
-    for (let counter=0 ; counter<allWordsDomCollection.length ; counter++) {
-        let currentWord = allWordsDomCollection[counter].textContent.toLowerCase()
-
-        let wordFrame = document.querySelectorAll('.new-word')
-    
-            if (currentWord.includes(userSearch)){
-                wordFrame[counter].style.display='block'
-            } else {
-                wordFrame[counter].style.display='none'
-            }
+    let searchQuery = event.target.value.toLowerCase()
+    for (let m=0 ; m < allWords.length ; m++) {
+        let currentWord = allWords[m].innerHTML.toLowerCase()
+        if (currentWord.includes(searchQuery)) {
+            frameWord[m].style.display = "block"
+        } else {
+            frameWord[m].style.display= "none"
         }
+    }
 })
