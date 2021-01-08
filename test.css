@@ -164,7 +164,7 @@ h2, p {
     font-style: italic;
     color: rgba(0, 0, 0, 0.552);
 }
-.open-modal {
+.meaning-btn {
     margin-top: 3em;
     font-family: 'Nunito' sans-serif;
     text-transform: uppercase;
@@ -177,8 +177,8 @@ h2, p {
     border-radius: 10px;
     color: white;
 }
-.open-modal:hover,
-.open-modal:focus {
+.meaning-btn:hover,
+.meaning-btn:focus {
     cursor: pointer;
     background-color: rgba(255, 1, 107, 0.62);
     outline: none;
@@ -201,7 +201,7 @@ h2, p {
     color:rgba(80, 78, 79, 0.429);
     
 }
-.close-btn {
+.close-meaning-btn {
     border: none;
     color: rgba(138, 131, 134, 0.429);
     background-color:rgba(255, 255, 255, 0);
@@ -212,7 +212,7 @@ h2, p {
     margin-top: 1em;
     padding: 0;
 }
-.close-btn:hover,
-.close-btn:focus {
+.close-meaning-btn:hover,
+.close-meaning-btn:focus {
     cursor: pointer;
 }
